@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
     res.sendFile(conectFile)
 })
 
-app.listen(8000, () => {
+app.listen(process.env.PORT, () => {
 
 })
